@@ -1,0 +1,33 @@
+@import 'variables';
+
+.swiper-pagination {
+    display: none;
+}
+
+.swiper-container {
+    width: 600px;
+    height: 250px;
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-slide {
+
+    img {
+        position: absolute;
+        bottom: 172px;
+        width: 13%;
+    }
+
+    text-align: center;
+    background: $Vary-Light-Gray;
+    // border: 1px solid black;
+
+    /* Center slide text vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

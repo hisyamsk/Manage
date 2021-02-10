@@ -1,0 +1,12 @@
+@mixin border-primary {
+    border-radius: 25px;
+    background-color: $Bright-Red;
+    color: #fff;
+    text-align: center;
+}
+
+@mixin footer-border {
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: none;
+}
