@@ -10,3 +10,7 @@
     border-radius: 25px;
     border: none;
 }
+
+@mixin footer-border-mobile{
+    padding: 10px 20px;
+}

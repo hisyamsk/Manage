@@ -11,7 +11,7 @@
 body {
   background-image: url(../images/bg-tablet-pattern.svg), url(../images/bg-tablet-pattern.svg);
   background-repeat: no-repeat, no-repeat;
-  background-position: 116% -10%, -71% 65%;
+  background-position: 150% -15%, -85% 65%;
 }
 
 ul {
@@ -38,6 +38,10 @@ h3 {
 
 p {
   color: #9095a7;
+}
+
+header {
+  margin-top: 1rem;
 }
 
 footer {
@@ -209,6 +213,62 @@ input[type=submit]:hover {
   width: 13%;
 }
 
+@media (max-width: 1024px) {
+  .navbar a {
+    margin: 0 10px !important;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  input[type=text],
+  input[type=submit] {
+    padding: 10px 20px;
+  }
+  .container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  .content-right {
+    margin-left: 11rem !important;
+  }
+  .swiper-slide {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 900px) {
+  * {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  a {
+    font-size: 14px;
+  }
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    width: 120px;
+  }
+  .content-right {
+    margin-left: 5rem !important;
+  }
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .swiper-slide p {
+    font-size: 12px;
+  }
+  .swiper-slide img {
+    width: 18%;
+  }
+  .attribution a {
+    font-size: 10px;
+  }
+}
+
 .navbar {
   padding: 1.5rem 0;
 }
@@ -229,11 +289,20 @@ input[type=submit]:hover {
 }
 
 .showcase .showcase-text {
-  padding-right: 10rem;
+  width: 100%;
+  margin-right: 8rem;
 }
 
 .showcase .showcase-text p {
   margin: 40px 0;
+}
+
+.showcase .showcase-image {
+  width: 100%;
+}
+
+.showcase .showcase-image img {
+  width: 100%;
 }
 
 .section-2 .content-left {
@@ -245,16 +314,16 @@ input[type=submit]:hover {
   margin-bottom: 20px;
 }
 
+.section-2 .content-right {
+  margin-left: 13rem;
+}
+
 .section-2 .content-right .title {
   padding: 5px 0;
 }
 
 .section-2 .content-right .sub-content-text {
   margin: 20px 0;
-}
-
-.content-right {
-  margin-left: 13rem;
 }
 
 .testimonials {

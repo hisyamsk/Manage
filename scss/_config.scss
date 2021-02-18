@@ -13,7 +13,7 @@
 body {
     background-image: url(../images/bg-tablet-pattern.svg), url(../images/bg-tablet-pattern.svg);
     background-repeat: no-repeat, no-repeat;
-    background-position: 116% -10%, -71% 65%;
+    background-position: 150% -15%, -85% 65%;
 }
 
 ul {
@@ -40,6 +40,10 @@ h3 {
 
 p {
     color: $Dark-Grayish-Blue;
+}
+
+header {
+    margin-top: 1rem;
 }
 
 footer {
