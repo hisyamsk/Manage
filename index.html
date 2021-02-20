@@ -29,7 +29,25 @@
             <li><a href="#">Community</a></li>
           </ul>
         </div>
-        <div class="btn btn-primary">Get Started</div>
+        <div class="nav-btn">
+          <div class="btn btn-primary">Get Started</div>
+        </div>
+        <div id="hamburger-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div id="nav-modal" class="modal">
+          <div class="modal-content">
+            <ul class="flex flex-col">
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </div>
   </header>
@@ -148,7 +166,7 @@
   <footer class="footer">
     <div class="container py-3 flex mb-0">
       <div class="socials flex flex-col">
-        <img src="images/logo-footer.svg" alt="">
+        <img class="socials-img" src="images/logo-footer.svg" alt="">
           <div class="socials-links flex">
             <a href=""><img src="images/icon-facebook.svg" alt=""></a>
             <a href=""><img src="images/icon-youtube.svg" alt=""></a>
@@ -174,15 +192,15 @@
           </ul>
         </div>
       </div>
-      <div class="copyright flex flex-col">
+      <div class="form flex flex-col">
         <div class="inputs flex">
           <input type="text" placeholder="Updates in your inbox...">
           <input type="submit" name="" id="" value="Go">
         </div>
-        <div class="copyright">
-          Copyright 2020. All Rights Reserved
-        </div>
       </div>
+    </div>
+    <div class="copyright">
+      Copyright 2020. All Rights Reserved
     </div>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
